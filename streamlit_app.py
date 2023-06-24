@@ -133,7 +133,7 @@ def song_emotion(emoticon):
 
 
 st.set_page_config(
-    page_title="Recone",
+    page_title="Jadzia",
     page_icon=":robot:"
 )
 
