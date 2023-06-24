@@ -1,0 +1,9 @@
+streamlit
+streamlit-chat==0.0.2.2
+requests
+keras
+numpy
+canaro
+tensorflow
+nltk
+google-cloud-language
