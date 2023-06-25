@@ -133,11 +133,11 @@ def song_emotion(emoticon):
 
 
 st.set_page_config(
-    page_title="Jadzia",
+    page_title="Recon",
     page_icon=":robot:"
 )
 
-st.header("Recone")
+st.header("Recon")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
