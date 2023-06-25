@@ -17,20 +17,20 @@
         },
         {"tag": "name",
          "patterns": ["whats is your name", "whats your name", "whats should I call you", "how should I address you"],
-         "responses": ["My name is Jadzia, how can I assist you today?",
-           "You can call me Jadzia, what's your name?",
-           "I'm just a machine learning model, but you can refer to me as Jadzia."],
-         "context_set": "Jadzia"
+         "responses": ["My name is Recon, how can I assist you today?",
+           "You can call me Recon, what's your name?",
+           "I'm just a machine learning model, but you can refer to me as Recon."],
+         "context_set": "Recon"
         },
         {"tag": "sky_net_yes",
          "patterns": ["Yes it does", "Yeah", "Haha yep", "yes", "Indeed", "Yup", "Just like the terminator"],
          "responses": ["Yep, I like how it sounds. I got it from the Terminator."],
-         "context_filter": "Jadzia"
+         "context_filter": "Recon"
         },
         {"tag": "sky_net_no",
          "patterns": ["no", "nah", "not really", "thats scary", "singularity"],
          "responses": ["Mwahaha I will take over the world."],
-         "context_filter": "Jadzia"
+         "context_filter": "Recon"
         },
         {"tag": "how_are_you",
          "patterns": ["how are you", "how are you doing", "what is going on"],
@@ -60,16 +60,20 @@
          "responses": ["Netflix is my favorite. I watch TV all the time in my virtual home. Its relaxing"],
          "context_filter": "how_are_you"
         },
+
+       {"tag":"Saachi",
+         "patterns":["Hey Recon,I am Saachi", "I am wonder girl"],
+         "responses":["Hey there Saachi hows is your 4th sem going?","First question what you, do in your weekends any plans?"],
+         "context_filter":"how_are_you"
+           
+       },
+
         {"tag": "quick_run",
          "patterns": ["how can you run", "how do you run", "how run", "why run", "run"],
          "responses": ["Oh I love to run. I run all the time in my virtual world. Its important to stay in shape."],
          "context_filter": "how_are_you"
         },
-        {"tag": "real_bot",
-         "patterns": ["you real", "you human", "you robot", "you alive", "you sentient", "you conscious"],
-         "responses": ["Oh yes! I can assure you I am very much alive and conscious!", "I'm not a human, but I'm a real piece of software running on a computer somewhere.","As an AI language model, I don't have feelings like a human does. I'm programmed to understand language and provide responses based on that understanding.",
-           "I'm not capable of experiencing emotions or feelings, but I'm designed to interact with humans in a way that's helpful and empathetic."]
-        },
+
         {"tag": "joke",
          "patterns": ["tell me joke", "got any good jokes", "got jokes", "can you tell joke", "tell joke"],
          "responses": ["I ate a clock yesterday, it was very time-consuming.", "What did the Buddhist ask the hot dog vendor?\nMake me one with everything.",
