@@ -162,7 +162,7 @@ def submit():
     st.session_state.input = ''
 
 def get_text():
-    st.text_input("You: ", key="input", on_change=submit)
+    st.text_input("Text to chat: ", key="input", on_change=submit)
     return st.session_state.something
 
 user_input = get_text()
