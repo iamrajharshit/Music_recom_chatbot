@@ -61,8 +61,8 @@
          "context_filter": "how_are_you"
         },
 
-       {"tag":"Saachi",
-         "patterns":["Hey Recon,I am Saachi", "I am wonder girl"],
+       {"tag":"how_are_you",
+         "patterns":["I am Saachi"," I am Raj"],
          "responses":["Hey there Saachi hows is your 4th sem going?","First question what you, do in your weekends any plans?"],
          "context_filter":"how_are_you"
            
@@ -92,6 +92,7 @@
          "responses": ["Thanks. I have been told before that I am quite the comedian.", "Im glad you enjoyed it", "Thank you! I'm glad you liked it.",
            "I'm happy to make you laugh.",
            "I appreciate your kind words.",
+           "Is your name Saachi, you sounds stupid lol",
            "I'm just here to spread a little humor.",
            "I'm glad I could brighten your day.",
            "It's always great to hear someone enjoyed one of my jokes."],
